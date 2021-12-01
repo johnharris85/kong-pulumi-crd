@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "outDir": "bin",
+        "target": "es2016",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "declaration": true,
+        "sourceMap": true,
+        "stripInternal": true,
+        "experimentalDecorators": true,
+        "noFallthroughCasesInSwitch": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true
+    },
+    "files": [
+        "configuration/index.ts",
+        "configuration/v1/index.ts",
+        "configuration/v1/kongClusterPlugin.ts",
+        "configuration/v1/kongConsumer.ts",
+        "configuration/v1/kongIngress.ts",
+        "configuration/v1/kongPlugin.ts",
+        "configuration/v1beta1/index.ts",
+        "configuration/v1beta1/tcpingress.ts",
+        "configuration/v1beta1/udpingress.ts",
+        "index.ts",
+        "provider.ts",
+        "types/index.ts",
+        "types/input.ts",
+        "types/output.ts",
+        "utilities.ts"
+    ]
+}

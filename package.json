@@ -1,0 +1,32 @@
+{
+    "name": "@johnharris85/kong-pulumi-crd",
+    "version": "0.0.1",
+    "description": "A package providing Kong CRD types for Pulumi",
+    "main": "index.ts",
+    "scripts": {
+      "build": "tsc"
+    },
+    "peerDependencies": {
+      "@pulumi/pulumi": "latest"
+    },
+    "pulumi": {
+      "resource": true
+    }
+    
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/johnharris85/kong-pulumi-crd.git"
+    },
+    "keywords": [
+      "Pulumi",
+      "Kong",
+      "CRD",
+      "Kubernetes"
+    ],
+    "author": "John Harris <john@johnharris.io>",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/johnharris85/kong-pulumi-crd/issues"
+    },
+    "homepage": "https://github.com/johnharris85/kong-pulumi-crd#readme"
+  }
